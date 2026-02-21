@@ -1,0 +1,111 @@
+/* .counter-container {
+    text-align: center;
+}
+
+.countdisplay {
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.counter-button {
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+    border: solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(4, 49, 49);
+}
+
+.counter-button:hover {
+    background-color: rgb(10, 173, 160);
+} */
+
+body {
+    background-color: hsla(0, 4%, 14%, 0.884);
+}
+
+.to-do-lsit {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: whitesmoke;
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+.add-button {
+    background-color: black;
+}
+
+.add-button:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+.deleat-button {
+    background-color: rgb(68, 3, 65);
+    margin: 50px;
+}
+
+.deleat-button:hover {
+    background-color: rgb(129, 10, 60);
+}
+
+.move-button {
+    background-color: rgb(224, 167, 8);
+    margin: 50px;
+}
+
+.move-button:hover {
+    background-color: rgb(90, 77, 5);
+}
+
+input[type="text"] {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: black;
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: wheat;
+    margin-bottom: 10px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.deleat-button,
+.move-button {
+    padding: 8px 10px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
