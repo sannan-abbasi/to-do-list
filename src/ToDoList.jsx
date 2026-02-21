@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 function TodoList() {
-  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("to-do")));
+  const [tasks, setTasks] = useState(
+    JSON.parse(localStorage.getItem("to-do")) || [],
+  );
   const [newtask, setNewTask] = useState("");
   function Handleinputchange(event) {
     setNewTask(event.target.value);
